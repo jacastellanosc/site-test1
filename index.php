@@ -7,5 +7,12 @@
 </head>
 <body>
     Fecha: <?php echo date("Y-m-d H:i:s"); ?>
+    <?php 
+    require_once "vendor/autoload.php";
+
+    $hello = new Rivsen\Demo\Hello();
+    echo $hello->hello();
+
+    ?>
 </body>
 </html>
