@@ -19,7 +19,7 @@
             <h3 class="panel-title">Panel title</h3>
         </div>
         <div class="panel-body">
-                Fecha: <?php echo date("Y-m-d H:i:s"); ?>
+                Fecha: <?php echo date("Y-m-d H:i:s"); ?>...
                 <br />
                 <?php
                 require_once "vendor/autoload.php";
