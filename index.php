@@ -28,6 +28,8 @@
                 echo $hello->hello();
 
                 ?>
+<br />
+                Prueba
         </div>
     </div>
 </body>
